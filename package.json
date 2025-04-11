@@ -1,16 +1,16 @@
 {
   "name": "assesment",
-  "homepage": "https://annchella.github.io/assesment/",
   "version": "0.0.0",
-  "type": "module",
+  "private": true,
+  "homepage": "https://annchella.github.io/assesment",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+
   "dependencies": {
     "axios": "^1.8.4",
     "react": "^19.0.0",
